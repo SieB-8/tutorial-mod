@@ -1,0 +1,9 @@
+{
+  "item.tutorialmod.test_item": "Test Item",
+  "item.tutorialmod.puzzle_piece": "Puzzle Piece",
+
+  "block.tutorialmod.puzzle_block": "Puzzle Block",
+  "block.tutorialmod.new_block": "New Block",
+
+  "itemgroup.tutorialmod.test_tab": "Test Items"
+}
