@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 60,
+  "experience": 100,
+  "group": "new_block",
+  "ingredient": {
+    "item": "tutorialmod:puzzle_block"
+  },
+  "result": {
+    "id": "tutorialmod:new_block"
+  }
+}

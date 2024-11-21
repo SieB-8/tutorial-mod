@@ -4,6 +4,7 @@
 
   "block.tutorialmod.puzzle_block": "Puzzle Block",
   "block.tutorialmod.new_block": "New Block",
+  "block.tutorialmod.ore": "Ore",
 
   "itemgroup.tutorialmod.test_tab": "Test Items"
 }

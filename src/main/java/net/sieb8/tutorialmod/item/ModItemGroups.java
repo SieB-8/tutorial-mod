@@ -21,6 +21,7 @@ public class ModItemGroups {
                         entries.add(ModItems.PUZZLE_PIECE);
                         entries.add(ModBlocks.PUZZLE_BLOCK);
                         entries.add(ModBlocks.NEW_BLOCK);
+                        entries.add(ModBlocks.ORE);
                     }).build());
 
     public static void registerItemGroups(){

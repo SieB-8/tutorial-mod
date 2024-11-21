@@ -20,6 +20,9 @@ public class ModBlocks {
     public static final Block NEW_BLOCK = registerBlock("new_block",
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.SCULK)));
+    public static final Block ORE = registerBlock("ore",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -35,6 +38,7 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(ModBlocks.PUZZLE_BLOCK);
             fabricItemGroupEntries.add(ModBlocks.NEW_BLOCK);
+            fabricItemGroupEntries.add(ModBlocks.ORE);
         });
     }
 }
