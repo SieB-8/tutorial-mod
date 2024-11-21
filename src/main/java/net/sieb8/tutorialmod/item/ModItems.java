@@ -7,10 +7,11 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.sieb8.tutorialmod.TutorialMod;
+import net.sieb8.tutorialmod.item.custom.ChiselItem;
 
 public class ModItems {
 
-    public static final Item TEST_ITEM = registerItem("test_item", new Item(new Item.Settings()));
+    public static final Item TEST_ITEM = registerItem("test_item", new ChiselItem(new Item.Settings().maxDamage(15)));
     public static final Item PUZZLE_PIECE =  registerItem("puzzle_piece", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
